@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .pinkBG{
+            background-color: pink;
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directives</title>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div id="app">
+        <div v-bind:class="vueClass"></div>
+    </div>
+    <script>
+        const app=Vue.createApp({
+            data(){
+                return{
+                    vueClass:"pinkBG"
+                }
+            }
+        })
+    app.mount('#app')
+    </script>
+</body>
+</html>
