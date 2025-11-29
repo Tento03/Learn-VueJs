@@ -1,7 +1,7 @@
 <template>
-<Hello />
+<Bind />
 </template>
 
 <script setup>
-import Hello from './components/Hello.vue';
+import Bind from './components/VModel.vue'
 </script>
