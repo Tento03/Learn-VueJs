@@ -1,7 +1,7 @@
 <template>
-<Bind />
+<If />
 </template>
 
 <script setup>
-import Bind from './components/Event.vue'
+import If from './components/VIf.vue'
 </script>
