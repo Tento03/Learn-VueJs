@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-import Bind from './components/VModel.vue'
+import Bind from './components/Event.vue'
 </script>
