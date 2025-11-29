@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-import If from './components/VIf.vue'
+import If from './components/VFor.vue'
 </script>
