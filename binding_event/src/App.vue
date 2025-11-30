@@ -1,7 +1,7 @@
 <template>
-<If />
+<Hello />
 </template>
 
 <script setup>
-import If from './components/VFor.vue'
+import Hello from './components/Props.vue';
 </script>
